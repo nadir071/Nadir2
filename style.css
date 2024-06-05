@@ -2,9 +2,9 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: Arial;
+    font-family: sans-serif;
 }
-.hero {
+body {
     width: 100%;
     height: 100vh;
     background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(Image/bg.jpeg);
@@ -36,4 +36,44 @@ button {
 }
 button i {
     margin-right: 2px;
+}
+.container {
+    width: 85%;
+    margin: auto;
+}
+.box-1 {
+    margin-top: 4%;
+    color: #fff;
+}
+.box-1 p {
+    margin-top: 3%;
+}
+.casting img {
+    height: 55px;
+    width: 40px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.box-1 button {
+    margin-top: 2.5%;
+}
+.box-1 button:hover {
+    background-color: #4f3b3b;
+}
+.movei {
+    height: 350px;
+    box-shadow: -4px 4px 5px 0 #000;
+}
+.movv h3 {
+    color: #fff;
+}
+.movv img {
+    width: 100%;
+    margin-top: 15px;
+    box-shadow: -4px 4px 5px 0 #000;
+    cursor: pointer;
+    transition: 1s;
+}
+.movv img:hover {
+    transform: translateY(-10px);
 }
