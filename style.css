@@ -30,7 +30,6 @@ button {
     padding: 10px 25px;
     background: transparent;
     border: 1px solid #4f3b3b;
-    border-radius: 20px;
     outline: none;
     cursor: pointer;
 }
@@ -44,9 +43,6 @@ button i {
 .box-1 {
     margin-top: 4%;
     color: #fff;
-}
-.box-1 p {
-    margin-top: 3%;
 }
 .casting img {
     height: 55px;
